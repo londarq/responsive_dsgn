@@ -23,6 +23,10 @@ p {
   font-weight: 300;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 75%;
   max-width: 1200px;
@@ -30,19 +34,7 @@ p {
 }
 
 .block {
-  padding: 4.5em 0;
-}
-
-.header {
-  padding: 7em 0;
-}
-
-.header p {
-  margin-bottom: 3em;
-}
-
-.header__content {
-  width: 60%;
+  padding: 2em 0;
 }
 
 .block__dark {
@@ -55,8 +47,26 @@ p {
   color: white;
 }
 
+.header {
+  padding: 7em 0;
+}
+
+.header__content {
+  width: 60%;
+}
+
+.header__img {
+  width: 35%;
+  align-self: flex-start;
+}
+
+.header p {
+  margin-bottom: 3em;
+}
+
 .row {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   gap: 2%;
 }
@@ -64,6 +74,7 @@ p {
 .col {
   width: 100%;
   text-align: center;
+  padding: 1em 0;
 }
 
 .btn {
