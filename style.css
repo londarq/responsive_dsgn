@@ -47,17 +47,17 @@ img {
   color: white;
 }
 
-.header {
-  padding: 7em 0;
-}
-
-.header__content {
+.block__content {
   width: 60%;
 }
 
-.header__img {
+.block__aside {
   width: 35%;
   align-self: flex-start;
+}
+
+.header {
+  padding: 7em 0;
 }
 
 .header p {
