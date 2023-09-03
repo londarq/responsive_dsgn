@@ -51,13 +51,18 @@ img {
   width: 60%;
 }
 
-.block__aside {
-  width: 35%;
-  align-self: flex-start;
-}
-
 .header {
   padding: 7em 0;
+}
+
+.header__img {
+  width: 32%;
+}
+
+.sidebar {
+  width: 32%;
+  padding: 1em;
+  text-align: center;
 }
 
 .header p {
