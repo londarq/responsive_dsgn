@@ -33,8 +33,7 @@ header {
 }
 
 .container {
-  width: 75%;
-  max-width: 1200px;
+  width: Min(1200px, 75%);
   margin: 0 auto;
 }
 
@@ -42,12 +41,12 @@ header {
   padding: 2em 0;
 }
 
-.block__dark {
+.block--dark {
   background: #23424a;
   color: white;
 }
 
-.block__green {
+.block--green {
   background: #136c72;
   color: white;
 }
@@ -56,15 +55,15 @@ header {
   width: 60%;
 }
 
-.start {
+.top {
   padding: 7em 0;
 }
 
-.start__img {
+.top__img {
   width: 32%;
 }
 
-.start p {
+.top p {
   margin-bottom: 3em;
 }
 
