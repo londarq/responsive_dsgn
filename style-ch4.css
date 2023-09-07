@@ -21,7 +21,6 @@ h1 {
 h2 {
   font-size: 2.25rem;
   margin-top: 0.1em;
-  /* margin-bottom: 0.6em; */
 }
 
 p {
@@ -41,20 +40,20 @@ img {
   color: #f3eed9;
 }
 
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+
 .container {
   width: Min(1128px, 60%);
   margin: 0 auto;
 }
 
-.tagline {
-  text-transform: uppercase;
-  /* font-size: 1.3125rem; */
-  letter-spacing: 0.5em;
-}
-
 .top {
   min-height: 660px;
-  width: min(760px, 50%);
+  width: Min(760px, 50%);
   margin: 0 auto;
 }
 
@@ -95,6 +94,10 @@ img {
 .text-content,
 .img-content {
   width: 47.5%;
+}
+
+.text-content--big {
+  font-size: 1.3125rem;
 }
 
 .img-content {
