@@ -55,15 +55,15 @@ header {
   width: 60%;
 }
 
-.top {
+.top-block {
   padding: 7em 0;
 }
 
-.top__img {
+.top-block__img {
   width: 32%;
 }
 
-.top p {
+.top-block p {
   margin-bottom: 3em;
 }
 
@@ -93,6 +93,8 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
 }
 
 .nav__link--button {
@@ -102,11 +104,9 @@ header {
   border-radius: 10em;
 }
 
-.nav__link--ch4button {
+.nav__link--button--ch4 {
   background: #f3eed9;
   color: #824936;
-  padding: 0.25em 1em;
-  border-radius: 10em;
 }
 
 .nav__link:hover {
@@ -130,6 +130,7 @@ header {
   padding: 1em 2.5em;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   color: #072a2d;
   background: #38cfd9;
   font-weight: 700;
