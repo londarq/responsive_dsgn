@@ -35,6 +35,7 @@ header {
 .container {
   width: Min(1200px, 75%);
   margin: 0 auto;
+  position: relative;
 }
 
 .block {
@@ -76,6 +77,12 @@ header {
 .nav {
   display: flex;
   justify-content: space-between;
+  gap: 2em;
+}
+
+.logo {
+  align-self: center;
+  padding: 6px;
 }
 
 .nav__list {
@@ -153,7 +160,7 @@ header {
   color: #87629a;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   body {
     font-size: 1.1rem;
   }
@@ -161,6 +168,10 @@ header {
   h1 {
     margin: 0;
     font-size: 2.5rem;
+  }
+
+  .nav {
+    justify-content: center;
   }
 
   .nav__list {
@@ -187,6 +198,7 @@ header {
     color: white;
     transition: opacity 250ms ease;
 
+    position: absolute;
     left: 0;
   }
 
@@ -246,8 +258,9 @@ header {
   }
 
   .top-block__img {
-    width: initial;
+    width: min(100%, 540px);
     padding: 1em 0;
+    margin: 0 auto;
   }
 
   .top-block p {
