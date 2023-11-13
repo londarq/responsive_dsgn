@@ -171,13 +171,14 @@ header {
   }
 
   .nav {
-    justify-content: center;
+    flex-direction: column;
   }
 
   .nav__list {
     visibility: hidden;
     height: 0;
     position: absolute;
+    flex-direction: column;
   }
 
   .nav--visible {
@@ -200,6 +201,7 @@ header {
 
     position: absolute;
     left: 0;
+    z-index: 1;
   }
 
   .nav__toggle:focus,
